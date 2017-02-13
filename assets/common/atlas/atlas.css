@@ -1,0 +1,12 @@
+.common_rank_sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(common_rank.png);}
+
+.common_rank_0 {width:64px; height:64px; background-position: -0px -0px}
+.common_rank_1 {width:64px; height:64px; background-position: -64px -0px}
+.common_rank_2 {width:64px; height:64px; background-position: -128px -0px}
+.common_rank_3 {width:64px; height:64px; background-position: -192px -0px}
+.common_rank_4 {width:64px; height:64px; background-position: -256px -0px}
+.common_rank_5 {width:64px; height:64px; background-position: -320px -0px}
+.common_rank_6 {width:64px; height:64px; background-position: -384px -0px}
+.common_rank_7 {width:64px; height:64px; background-position: -448px -0px}
+.common_rank_8 {width:64px; height:64px; background-position: -512px -0px}
+.common_rank_9 {width:64px; height:64px; background-position: -576px -0px}
