@@ -14,7 +14,7 @@ h1 {
 	height: 500px;
 }
 
-#root button:focus {
+#root :focus {
     outline: none !important;
 }
 

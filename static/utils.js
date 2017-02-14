@@ -1,9 +1,10 @@
 function redirectByLanguage(){
 	try{
-		if(JsUtils.cookie("noredirect") == "true"){
+		if(localStorage.noRedirect){
 			return;
 		}
-		var lang = locale();
+
+		var lang = window.navigator.userLanguage || window.navigator.language || "en";
 		var isRuLang = lang.toLowerCase().indexOf("ru") >= 0;
 		var currentUrl = window.location.href.toLowerCase();
 		var isRuSite = currentUrl.indexOf("ru.quizexer.com") >= 0;
@@ -14,7 +15,7 @@ function redirectByLanguage(){
 				sites = isRuSite ? sites : [sites[1],sites[0]];
 				window.location.href = currentUrl.replace(sites[0],sites[1]);
 			}else{
-				JsUtils.cookie("noredirect", "true", { path: '/', expires: 300});
+				localStorage.noRedirect = 1;
 			}
 		}
 	}catch(e){}
