@@ -24,6 +24,7 @@ h1 {
 }
 
 .common_rank_sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(common_rank.png);}
+
 .common_rank_0 {width:64px; height:64px; background-position: -0px -0px}
 .common_rank_1 {width:64px; height:64px; background-position: -64px -0px}
 .common_rank_2 {width:64px; height:64px; background-position: -128px -0px}
@@ -35,11 +36,13 @@ h1 {
 .common_rank_8 {width:64px; height:64px; background-position: -512px -0px}
 .common_rank_9 {width:64px; height:64px; background-position: -576px -0px}
 .common_icon_sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(common_icon.png);}
-.common_icon_check {width:64px; height:64px; background-position: -0px -0px}
-.common_icon_hard {width:64px; height:64px; background-position: -64px -0px}
-.common_icon_lock {width:64px; height:64px; background-position: -128px -0px}
-.common_icon_normal {width:64px; height:64px; background-position: -192px -0px}
-.common_icon_progress {width:64px; height:64px; background-position: -256px -0px}
-.common_icon_question {width:64px; height:64px; background-position: -320px -0px}
-.common_icon_speed {width:64px; height:64px; background-position: -384px -0px}
-.common_icon_unlock {width:64px; height:64px; background-position: -448px -0px}
+
+.common_icon_category {width:64px; height:64px; background-position: -0px -0px}
+.common_icon_check {width:64px; height:64px; background-position: -64px -0px}
+.common_icon_hard {width:64px; height:64px; background-position: -128px -0px}
+.common_icon_lock {width:64px; height:64px; background-position: -192px -0px}
+.common_icon_normal {width:64px; height:64px; background-position: -256px -0px}
+.common_icon_progress {width:64px; height:64px; background-position: -320px -0px}
+.common_icon_question {width:64px; height:64px; background-position: -384px -0px}
+.common_icon_speed {width:64px; height:64px; background-position: -448px -0px}
+.common_icon_unlock {width:64px; height:64px; background-position: -512px -0px}
