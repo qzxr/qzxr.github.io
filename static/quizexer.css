@@ -8,6 +8,12 @@ h1 {
 	background-color: #f6f6f6 !important;
 }
 
+img.menu-icon{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
 #root{
 	position:absolute;
 	left:50%;
@@ -37,12 +43,13 @@ h1 {
 .common_rank_9 {width:64px; height:64px; background-position: -576px -0px}
 .common_icon_sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(common_icon.png);}
 
-.common_icon_category {width:64px; height:64px; background-position: -0px -0px}
-.common_icon_check {width:64px; height:64px; background-position: -66px -0px}
-.common_icon_hard {width:64px; height:64px; background-position: -132px -0px}
-.common_icon_lock {width:64px; height:64px; background-position: -198px -0px}
-.common_icon_normal {width:64px; height:64px; background-position: -264px -0px}
-.common_icon_progress {width:64px; height:64px; background-position: -330px -0px}
-.common_icon_question {width:64px; height:64px; background-position: -396px -0px}
-.common_icon_speed {width:64px; height:64px; background-position: -462px -0px}
-.common_icon_unlock {width:64px; height:64px; background-position: -528px -0px}
+.common_icon_android {width:64px; height:64px; background-position: -0px -0px}
+.common_icon_category {width:64px; height:64px; background-position: -66px -0px}
+.common_icon_check {width:64px; height:64px; background-position: -132px -0px}
+.common_icon_hard {width:64px; height:64px; background-position: -198px -0px}
+.common_icon_lock {width:64px; height:64px; background-position: -264px -0px}
+.common_icon_normal {width:64px; height:64px; background-position: -330px -0px}
+.common_icon_progress {width:64px; height:64px; background-position: -396px -0px}
+.common_icon_question {width:64px; height:64px; background-position: -462px -0px}
+.common_icon_speed {width:64px; height:64px; background-position: -528px -0px}
+.common_icon_unlock {width:64px; height:64px; background-position: -594px -0px}
