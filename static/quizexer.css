@@ -8,16 +8,15 @@ h1 {
 	background-color: #f6f6f6 !important;
 }
 
+[data-reactroot] {
+	background-color:#e1e1e1;
+	justify-content:center;
+}
+
 img.menu-icon{
 	width: 30px;
 	height: 30px;
 	margin-right: 10px;
-}
-
-#root{
-	position:absolute;
-	left:50%;
-	height: 500px;
 }
 
 #root :focus {
